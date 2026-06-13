@@ -1,0 +1,13 @@
+.civic-dashboard { min-height: 100vh; background: linear-gradient(135deg, #07111f 0%, #0f172a 100%); padding: 2rem; }
+.dashboard-header { display: flex; justify-content: space-between; align-items: center; padding: 2rem; margin-bottom: 2rem; }
+.header-content h1 { font-size: 2rem; background: linear-gradient(135deg, var(--neon-cyan), var(--neon-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.stats-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+.stat-card { padding: 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.stat-value { font-size: 1.8rem; font-weight: 700; margin: 0; }
+.nodes-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; }
+.node-card { padding: 1.5rem; border-left: 4px solid var(--neon-red); }
+.severity-badge { padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.75rem; white-space: nowrap; }
+.severity-high { background: rgba(255, 77, 109, 0.2); color: var(--neon-red); }
+.severity-medium { background: rgba(255, 200, 87, 0.2); color: var(--neon-yellow); }
+.incident-tag { padding: 0.3rem 0.8rem; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); border-radius: 6px; font-size: 0.8rem; }
+.action-btn { width: 100%; margin-top: 1rem; }
